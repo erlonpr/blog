@@ -9,7 +9,7 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@erlonpr' />
 <meta name='twitter:title' content='blog' />
-<meta name='twitter:description' content=" Meu pinguin: Um guia prático para usuários iniciantes em distribuições GNU/Linux   February 25, 2023 &mdash;  John Smith    O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições D" />
+<meta name='twitter:description' content=" Meu pinguin: um guia prático para usuários iniciantes em distribuições GNU/Linux   February 25, 2023 &mdash;  erlonpr    O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições Debi" />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -19,30 +19,36 @@
 </div></div></div>
 <div id="divbody"><div class="content">
 <h3><a class="ablack" href="meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html">
-Meu pinguin: Um guia prático para usuários iniciantes em distribuições GNU/Linux
+Meu pinguin: um guia prático para usuários iniciantes em distribuições GNU/Linux
 </a></h3>
 <!-- bashblog_timestamp: #202302252219.12# -->
 <div class="subtitle">February 25, 2023 &mdash; 
-John Smith
+erlonpr
 </div>
 <!-- text begin -->
 
-<p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.</p>
+<p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.
+A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o <code>apt</code> e <code>dpkg</code>. Já no caso do Arch Linux, apesar dele possuir nativamente o <code>pacman</code> como gerenciador de pacotes, eu recomendo a utilização do <code>yay</code>.
+Para instalá-lo para executar os seguintes comandos:
+Comando para instalação das dependências do yay:
+<code>shell
+sudo pacman -S --needed base-devel
+sudo pacman -S git go
+</code>
+Comando para instalação do yay:
+<code>shell
+cd /tmp
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+</code></p>
+
+<blockquote>
+  <p>A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar.
+A opção -i instala o pacote se ele foi compilado com sucesso.</p>
+</blockquote>
 
 <p>Tags: <a href='tag_linux.html'>linux</a>, <a href='tag_debian.html'>debian</a>, <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_archlinux.html'>archlinux</a>, <a href='tag_cli.html'>cli</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- text end -->
 <p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
