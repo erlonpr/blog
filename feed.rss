@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>blog</title><link>https://erlonpr.github.io/blog//index.html</link>
 <description>sobre tecnologia e outros assuntos</description><language>en</language>
-<lastBuildDate>Sun, 26 Feb 2023 21:12:25 -0300</lastBuildDate>
-<pubDate>Sun, 26 Feb 2023 21:12:25 -0300</pubDate>
+<lastBuildDate>Sun, 26 Feb 2023 21:46:05 -0300</lastBuildDate>
+<pubDate>Sun, 26 Feb 2023 21:46:05 -0300</pubDate>
 <atom:link href="https://erlonpr.github.io/blog//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU/Linux
+Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU Linux
 </title><description><![CDATA[
 
 <p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.</p>
@@ -31,14 +31,16 @@ Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU/L
 
 
 
+
+
 <!-- text end -->
-<p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html"
+<p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnu-linux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnu-linux.html"
  data-via="erlonpr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html</link>
-<guid>https://erlonpr.github.io/blog//./meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html</guid>
+]]></description><link>https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnu-linux.html</link>
+<guid>https://erlonpr.github.io/blog//./meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnu-linux.html</guid>
 <dc:creator>erlonpr</dc:creator>
 <pubDate>Sun, 26 Feb 2023 21:00:44 -0300</pubDate></item>
 </channel></rss>
