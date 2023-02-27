@@ -2,44 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>blog</title><link>https://erlonpr.github.io/blog//index.html</link>
 <description>sobre tecnologia e outros assuntos</description><language>en</language>
-<lastBuildDate>Sun, 26 Feb 2023 19:40:52 -0300</lastBuildDate>
-<pubDate>Sun, 26 Feb 2023 19:40:52 -0300</pubDate>
+<lastBuildDate>Sun, 26 Feb 2023 21:12:25 -0300</lastBuildDate>
+<pubDate>Sun, 26 Feb 2023 21:12:25 -0300</pubDate>
 <atom:link href="https://erlonpr.github.io/blog//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
-Meu pinguin: um guia prático para usuários iniciantes em distribuições GNU/Linux
+Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU/Linux
 </title><description><![CDATA[
 
-<p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.
-A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o <code>apt</code> e <code>dpkg</code>. Já no caso do Arch Linux, apesar dele possuir nativamente o <code>pacman</code> como gerenciador de pacotes, eu recomendo a utilização do <code>yay</code>.
-Para instalá-lo para executar os seguintes comandos:
-Comando para instalação das dependências do yay:
-<code>shell
-sudo pacman -S --needed base-devel
-sudo pacman -S git go
-</code>
-Comando para instalação do yay:
-<code>shell
-cd /tmp
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-</code></p>
+<p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.</p>
+<p>A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o <strong>apt</strong> e <strong>dpkg</strong>. Já no caso do Arch Linux, apesar dele possuir nativamente o <strong>pacman</strong> como gerenciador de pacotes, eu recomendo a utilização do <strong>yay</strong>.</p>
+
+<p><strong>yay</strong></p>
+
+<p>Comandos para instalação das dependências do yay:</p>
+<p><code>sudo pacman -S --needed base-devel</code></p>
+<p><code>sudo pacman -S git go</code></p>
+<p>Comandos para instalação do yay:</p>
+<p><code>cd /tmp</code></p>
+<p><code>git clone https://aur.archlinux.org/yay.git</code></p>
+<p><code>cd yay</code></p>
+<p><code>makepkg -si</code></p>
 
 <blockquote>
-  <p>A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar.
-A opção -i instala o pacote se ele foi compilado com sucesso.</p>
+  <p>A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar. Já a opção -i instala o pacote se ele foi compilado com sucesso.</p>
 </blockquote>
 
 <p>Tags: <a href='tag_linux.html'>linux</a>, <a href='tag_debian.html'>debian</a>, <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_archlinux.html'>archlinux</a>, <a href='tag_cli.html'>cli</a></p>
 
+
+
 <!-- text end -->
-<p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog//meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html"
+<p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html"
  data-via="erlonpr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
-]]></description><link>https://erlonpr.github.io/blog//meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html</link>
-<guid>https://erlonpr.github.io/blog//./meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html</guid>
+]]></description><link>https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html</link>
+<guid>https://erlonpr.github.io/blog//./meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html</guid>
 <dc:creator>erlonpr</dc:creator>
-<pubDate>Sat, 25 Feb 2023 22:19:12 -0300</pubDate></item>
+<pubDate>Sun, 26 Feb 2023 21:00:44 -0300</pubDate></item>
 </channel></rss>

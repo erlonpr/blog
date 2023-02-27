@@ -1,0 +1,16 @@
+Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU/Linux
+
+O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições **Debian**, **Ubuntu** e **Arch Linux** para uso cotidiano, bem como, para programação.
+A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o **apt** e **dpkg**. Já no caso do Arch Linux, apesar dele possuir nativamente o **pacman** como gerenciador de pacotes, eu recomendo a utilização do **yay**.
+## yay
+Comandos para instalação das dependências do yay:
+`sudo pacman -S --needed base-devel`
+`sudo pacman -S git go`
+Comandos para instalação do yay:
+`cd /tmp`
+`git clone https://aur.archlinux.org/yay.git`
+`cd yay`
+`makepkg -si`
+> A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar. Já a opção -i instala o pacote se ele foi compilado com sucesso.
+
+Tags: linux, debian, ubuntu, archlinux, cli

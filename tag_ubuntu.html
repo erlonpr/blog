@@ -9,7 +9,7 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@erlonpr' />
 <meta name='twitter:title' content='blog &mdash; Posts tagged "ubuntu"' />
-<meta name='twitter:description' content=" Meu pinguin: um guia prático para usuários iniciantes em distribuições GNU/Linux   February 25, 2023 &mdash;  erlonpr    O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições Debi" />
+<meta name='twitter:description' content=" Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU/Linux   February 26, 2023 &mdash;  erlonpr    O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições Debi" />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -18,41 +18,40 @@
 <div id="description">sobre tecnologia e outros assuntos</div>
 </div></div></div>
 <div id="divbody"><div class="content">
-<h3><a class="ablack" href="meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html">
-Meu pinguin: um guia prático para usuários iniciantes em distribuições GNU/Linux
+<h3><a class="ablack" href="meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html">
+Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU/Linux
 </a></h3>
-<!-- bashblog_timestamp: #202302252219.12# -->
-<div class="subtitle">February 25, 2023 &mdash; 
+<!-- bashblog_timestamp: #202302262100.44# -->
+<div class="subtitle">February 26, 2023 &mdash; 
 erlonpr
 </div>
 <!-- text begin -->
 
-<p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.
-A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o <code>apt</code> e <code>dpkg</code>. Já no caso do Arch Linux, apesar dele possuir nativamente o <code>pacman</code> como gerenciador de pacotes, eu recomendo a utilização do <code>yay</code>.
-Para instalá-lo para executar os seguintes comandos:
-Comando para instalação das dependências do yay:
-<code>shell
-sudo pacman -S --needed base-devel
-sudo pacman -S git go
-</code>
-Comando para instalação do yay:
-<code>shell
-cd /tmp
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-</code></p>
+<p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.</p>
+<p>A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o <strong>apt</strong> e <strong>dpkg</strong>. Já no caso do Arch Linux, apesar dele possuir nativamente o <strong>pacman</strong> como gerenciador de pacotes, eu recomendo a utilização do <strong>yay</strong>.</p>
+
+<p><strong>yay</strong></p>
+
+<p>Comandos para instalação das dependências do yay:</p>
+<p><code>sudo pacman -S --needed base-devel</code></p>
+<p><code>sudo pacman -S git go</code></p>
+<p>Comandos para instalação do yay:</p>
+<p><code>cd /tmp</code></p>
+<p><code>git clone https://aur.archlinux.org/yay.git</code></p>
+<p><code>cd yay</code></p>
+<p><code>makepkg -si</code></p>
 
 <blockquote>
-  <p>A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar.
-A opção -i instala o pacote se ele foi compilado com sucesso.</p>
+  <p>A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar. Já a opção -i instala o pacote se ele foi compilado com sucesso.</p>
 </blockquote>
 
 <p>Tags: <a href='tag_linux.html'>linux</a>, <a href='tag_debian.html'>debian</a>, <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_archlinux.html'>archlinux</a>, <a href='tag_cli.html'>cli</a></p>
 
+
+
 <!-- text end -->
-<p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog//meu-pinguin-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html"
+<p id='twitter'><a href="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog//meu-pinguim-um-guia-pratico-para-usuarios-iniciantes-em-distribuicoes-gnulinux.html"
  data-via="erlonpr"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
