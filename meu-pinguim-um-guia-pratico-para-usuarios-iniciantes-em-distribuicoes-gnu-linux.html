@@ -9,7 +9,7 @@
 <meta name='twitter:card' content='summary' />
 <meta name='twitter:site' content='@erlonpr' />
 <meta name='twitter:title' content='Meu pinguim: um guia prático para usuários iniciantes em distribuições GNU Linux' />
-<meta name='twitter:description' content=" O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições Debian, Ubuntu e Arch Linux para uso cotidiano, bem como, para programação. A maioria dos comandos utilizados nesta postagem ir" />
+<meta name='twitter:description' content=" O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições Debian, Ubuntu e Arch Linux para uso cotidiano, bem como, para programação.  Gerenciadores de pacotes  A maioria dos comandos u" />
 </head><body>
 <div id="divbodyholder">
 <div class="headerholder"><div class="header">
@@ -29,13 +29,15 @@ erlonpr
 <!-- text begin -->
 
 <p>O objetivo dessa postagem é compartilhar as minhas sugestões de configuração e personalização das distribuições <strong>Debian</strong>, <strong>Ubuntu</strong> e <strong>Arch Linux</strong> para uso cotidiano, bem como, para programação.</p>
-<p>A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas. No Debian e Ubuntu será utilizado o <strong>apt</strong> e <strong>dpkg</strong>. Já no caso do Arch Linux, apesar dele possuir nativamente o <strong>pacman</strong> como gerenciador de pacotes, eu recomendo a utilização do <strong>yay</strong>.</p>
 
-<p><strong>yay</strong></p>
+<h4>Gerenciadores de pacotes</h4>
+
+<p>A maioria dos comandos utilizados nesta postagem irão utilizar um gerenciador de pacotes para instalação, atualização ou remoção de programas.</p>
+<p>No Debian e Ubuntu será utilizado o <strong>apt</strong> e <strong>dpkg</strong>.</p>
+<p>Já no caso do Arch Linux, apesar dele possuir nativamente o <strong>pacman</strong> como gerenciador de pacotes, eu recomendo a utilização do <strong>yay</strong>.</p>
 
 <p>Comandos para instalação das dependências do yay:</p>
-<p><code>sudo pacman -S --needed base-devel</code></p>
-<p><code>sudo pacman -S git go</code></p>
+<p><code>sudo pacman -S --needed base-devel git</code></p>
 <p>Comandos para instalação do yay:</p>
 <p><code>cd /tmp</code></p>
 <p><code>git clone https://aur.archlinux.org/yay.git</code></p>
@@ -46,7 +48,38 @@ erlonpr
   <p>A opção -s resolve automaticamente e instala quaisquer dependências com o pacman antes de compilar. Já a opção -i instala o pacote se ele foi compilado com sucesso.</p>
 </blockquote>
 
+<h4>Codecs</h4>
+
+<p>Comando para instalar codecs complementares no Ubuntu:</p>
+<p><code>sudo apt install -y ubuntu-restricted-extras</code></p>
+<blockquote>
+  <p>O pacote <strong>ubuntu-restricted-extras</strong> permite instalar um conjunto de programas que são restritos por razões legais ou de copyright e que não podem ser instalados automaticamente pelo sistema, como por exemplo: codecs de áudio e vídeo, fontes de texto, plugins web e descompressores.</p>
+</blockquote>
+<p>Para usuários de flavours do Ubuntu é necessário fazer um pequeno ajuste do comando acima.</p>
+<p>No Xubuntu execute:</p>
+<p><code>sudo apt install -y xubuntu-restricted-extras</code></p>
+<p>No Lubuntu execute:</p>
+<p><code>sudo apt install -y lubuntu-restricted-extras</code></p>
+<p>No Kubuntu execute:</p>
+<p><code>sudo apt install -y kubuntu-restricted-extras</code></p>
+<p>Fonte: <a href="https://help.ubuntu.com/community/RestrictedFormats" title="ubuntu-restricted-extras" target="_blank">Ubuntu Documentation - ubuntu-restricted-extras</a></p>
+
 <p>Tags: <a href='tag_linux.html'>linux</a>, <a href='tag_debian.html'>debian</a>, <a href='tag_ubuntu.html'>ubuntu</a>, <a href='tag_archlinux.html'>archlinux</a>, <a href='tag_cli.html'>cli</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
