@@ -1,0 +1,9 @@
+# Bashblog backups
+*.tar.gz
+.backup.tar.gz
+.yesterday.tar.gz
+
+# Bashblog temporary drafts and files
+drafts/
+.*.html
+.*.md
