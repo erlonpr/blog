@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>Blog</title><link>https://erlonpr.github.io/blog/index.html</link>
 <description>@erlonpr</description><language>en</language>
-<lastBuildDate>Tue, 02 Jun 2026 20:16:48 -0300</lastBuildDate>
-<pubDate>Tue, 02 Jun 2026 20:16:48 -0300</pubDate>
+<lastBuildDate>Sun, 07 Jun 2026 11:43:57 -0300</lastBuildDate>
+<pubDate>Sun, 07 Jun 2026 11:43:57 -0300</pubDate>
 <atom:link href="https://erlonpr.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Cadê teu suin?
+</title><description><![CDATA[
+<p>Sempre que tento explicar a sonoridade da Nova MPB, forma como eu costumo chamar o indie nacional contemporâneo, percebo que é preciso olhar para o passado recente e reconhecer o impacto de uma ruptura.</p>
+<hr />
+<p id='twitter'><a href="https://erlonpr.github.io/blog/cade-teu-suin.html#disqus_thread">Comments?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://erlonpr.github.io/blog/cade-teu-suin.html"
+ data-via="erlonpr"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://erlonpr.github.io/blog/cade-teu-suin.html</link>
+<guid>https://erlonpr.github.io/blog/./cade-teu-suin.html</guid>
+<dc:creator>erlonpr</dc:creator>
+<pubDate>Sun, 07 Jun 2026 01:23:39 -0300</pubDate></item>
 <item><title>
 Meu pinguim
 </title><description><![CDATA[
